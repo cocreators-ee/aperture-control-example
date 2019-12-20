@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Enable an "Autorun" command for all command prompts
+
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+; %USERPROFILE%\init.cmd
+"Autorun"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,69,00,6e,00,69,00,74,00,2e,00,63,00,6d,00,64,00,00,\
+  00
